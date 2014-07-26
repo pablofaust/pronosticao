@@ -1,0 +1,84 @@
+@import 'bootstrap';
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif|Pacifico|Dancing+Script|Roboto);
+
+$body-bg: #ffffff;
+
+$text-color: #666666;
+
+$font-size-base: 14px;
+$font-size-h1: $font-size-base * 4.0;
+$font-size-h2: $font-size-base * 3.0;
+$font-size-h3: $font-size-base * 2.0;
+$font-size-h4: $font-size-base * 1.2;
+
+$headings-font-family: 'Helvetica Neue', Sans Serif;
+
+$navbar-default-bg: #ffca45;
+$navbar-height: 60px;
+$navbar-default-border: #ffca45;
+
+$navbar-default-brand-color: #ffffff;
+$navbar-default-brand-hover-color : #ffffff;
+
+$btn-success-color: #ffffff;
+$btn-success-bg: #85E6AA;
+$btn-success-border: #85E6AA;
+
+$btn-danger-color: #ffffff;
+$btn-danger-bg: #EBEBEB;
+$btn-danger-border: #EBEBEB;
+
+$btn-warning-color: #ffffff;
+$btn-warning-bg: #99E4FF;
+$btn-warning-border: #99E4FF;
+
+$jumbotron-padding: 2px;
+$jumbotron-bg: #FFDB80;
+
+$panel-bg: #ffffff;
+$panel-default-border: #ffca45;
+$panel-default-text: 666666;
+
+$panel-default-heading-bg: #ffffff;
+$panel-heading-padding: 5px;
+
+$link-color: #ffffff;
+
+@import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-header {
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+ }
+
+.navbar-brand {
+	float:none;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: 'Pacifico', cursive;
+}
+
+.input-group-addon {
+	width: 0.25%;
+	background-color: #FFCA45;
+	border: black;
+	 }
+
+.glyphicon {
+	color: #ffffff;
+	 }
+
+.panel-heading {
+	text-align: center;
+	 }
+
+.panel-body {
+	text-align: center;
+	 }
+	
