@@ -4,6 +4,14 @@ Rails.application.routes.draw do
   get "manifeste" => "pages#manifeste"
   get "match1" => "pages#match1"
   get "match2" => "pages#match2"
+  get "match3" => "pages#match3"
+  get "match4" => "pages#match4"
+  get "match5" => "pages#match5"
+  get "match6" => "pages#match6"
+  get "match7" => "pages#match7"
+  get "match8" => "pages#match8"
+  get "match9" => "pages#match9"
+  get "match10" => "pages#match10"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

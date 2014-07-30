@@ -7,4 +7,20 @@ class PagesController < ApplicationController
   end
   def match2
   end
+  def match3
+  end
+  def match4
+  end
+  def match5
+  end
+  def match6
+  end
+  def match7
+  end
+  def match8
+  end
+  def match9
+  end
+  def match10
+  end
 end
