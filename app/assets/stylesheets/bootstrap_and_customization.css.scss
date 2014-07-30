@@ -6,13 +6,16 @@ $body-bg: #ffffff;
 
 $text-color: #666666;
 
+$font-family-sans-serif:                 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 $font-size-base: 14px;
 $font-size-h1: $font-size-base * 4.0;
-$font-size-h2: $font-size-base * 3.0;
-$font-size-h3: $font-size-base * 2.0;
+$font-size-h2: $font-size-base * 2.0;
+$font-size-h3: $font-size-base * 1.6;
 $font-size-h4: $font-size-base * 1.2;
 
 $headings-font-family: 'Helvetica Neue', Sans Serif;
+$headings-color: #666666;
 
 $navbar-default-bg: #ffca45;
 $navbar-height: 60px;
@@ -20,6 +23,11 @@ $navbar-default-border: #ffca45;
 
 $navbar-default-brand-color: #ffffff;
 $navbar-default-brand-hover-color : #ffffff;
+
+$navbar-default-link-color: #ffffff;
+$navbar-default-link-hover-color: #FFAB45;
+
+$navbar-border-radius: 0%;
 
 $btn-success-color: #ffffff;
 $btn-success-bg: #85E6AA;
@@ -33,9 +41,11 @@ $btn-warning-color: #ffffff;
 $btn-warning-bg: #99E4FF;
 $btn-warning-border: #99E4FF;
 
-$jumbotron-padding: 2px;
-$jumbotron-bg: #FFDB80;
+$jumbotron-padding: 5px;
+$jumbotron-bg: #ffca45;
+$jumbotron-font-size: $font-size-base * 1.25;
 
+$panel-body-padding: 15px;
 $panel-bg: #ffffff;
 $panel-default-border: #ffca45;
 $panel-default-text: 666666;
@@ -43,9 +53,9 @@ $panel-default-text: 666666;
 $panel-default-heading-bg: #ffffff;
 $panel-heading-padding: 5px;
 
-$link-color: #ffffff;
 
 @import 'bootstrap';
+
 
 .center {
 	text-align: center;
@@ -53,8 +63,6 @@ $link-color: #ffffff;
 
 .navbar-header {
     padding: 15px;
-    text-align: center;
-    width: 100%;
  }
 
 .navbar-brand {
@@ -74,6 +82,18 @@ $link-color: #ffffff;
 	color: #ffffff;
 	 }
 
+.glyphicon-arrow-right {
+	color: #666666;
+	 }
+
+.glyphicon-minus {
+	color: #666666;
+	font-size: 25px;
+	vertical-align: middle;
+	margin-left: .5em;
+	margin-right: .5em;
+	 }
+
 .panel-heading {
 	text-align: center;
 	 }
@@ -81,4 +101,10 @@ $link-color: #ffffff;
 .panel-body {
 	text-align: center;
 	 }
-	
+
+.img {
+	text-align: center;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	 }

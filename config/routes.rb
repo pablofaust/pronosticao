@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   root 'pages#home'
 
+  get "manifeste" => "pages#manifeste"
   get "match1" => "pages#match1"
+  get "match2" => "pages#match2"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
