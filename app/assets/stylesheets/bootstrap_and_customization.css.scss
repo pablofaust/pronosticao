@@ -53,6 +53,8 @@ $panel-default-text: 666666;
 $panel-default-heading-bg: #ffffff;
 $panel-heading-padding: 5px;
 
+$grid-gutter-width: 0%;
+
 
 @import 'bootstrap';
 
@@ -108,3 +110,14 @@ $panel-heading-padding: 5px;
 	margin-left: auto;
 	margin-right: auto;
 	 }
+
+.span4 { 
+	height: 5px; 
+	width: 100%; 
+	font-size: 0; 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	display: block;
+	 }
+
