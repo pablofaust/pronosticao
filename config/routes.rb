@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get "match8" => "pages#match8"
   get "match9" => "pages#match9"
   get "match10" => "pages#match10"
+  get "match11" => "pages#match11"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
