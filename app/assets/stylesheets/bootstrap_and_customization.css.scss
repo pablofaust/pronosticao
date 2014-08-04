@@ -41,6 +41,10 @@ $btn-warning-color: #ffffff;
 $btn-warning-bg: #99E4FF;
 $btn-warning-border: #99E4FF;
 
+$btn-info-color: #ffffff;
+$btn-info-bg: #ffca45;
+$btn-info-border: #ffca45;
+
 $jumbotron-padding: 2px;
 $jumbotron-bg: #ffca45;
 $jumbotron-font-size: $font-size-base * 1.25;
@@ -133,3 +137,6 @@ $grid-gutter-width: 0%;
 	margin-right: 98px;
 	}
 
+.wrapper {
+    text-align: center;
+}
