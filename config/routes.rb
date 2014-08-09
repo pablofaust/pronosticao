@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root 'pages#home'
 
+  get "historique" => "pages#historique"
   get "manifeste" => "pages#manifeste"
   get "match1" => "pages#match1"
   get "match2" => "pages#match2"

@@ -1,6 +1,8 @@
 class PagesController < ApplicationController
   def home
   end
+  def historique
+  end
   def manifeste
   end
   def match1

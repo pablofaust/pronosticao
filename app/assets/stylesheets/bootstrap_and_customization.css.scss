@@ -6,6 +6,8 @@ $body-bg: #ffffff;
 
 $text-color: #666666;
 
+$link-color: #ffffff;
+
 $font-family-sans-serif:                 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 $font-size-base: 14px;
@@ -115,4 +117,8 @@ $panel-heading-padding: 5px;
 	 
 .wrapper {
     text-align: center;
+}
+
+.btn-lg {
+    width: 30%;
 }
